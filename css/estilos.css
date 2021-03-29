@@ -1,0 +1,91 @@
+*{
+    background-color: rgb(189, 211, 211);
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor_boletin{
+    width: 450px;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    margin: 100px;
+    
+}
+
+h1{
+    color: rgb(72, 72, 100);
+    text-align: center;
+    top: 20px;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 7px;
+    text-align: center;
+    right: 480px;
+    top: 85px;
+}
+
+input{
+    background-color: rgb(241, 241, 241);    
+    width: 80%;
+    padding: 3px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border-radius: 4px;
+    border-color: rgba(128, 128, 128, 0.281);
+}
+
+label{
+    background-color: rgba(255, 255, 255, 0.479);
+}
+
+#enviarDatos:hover {
+    cursor: pointer;
+}
+
+.encabezado__boletin{
+    text-transform: uppercase;
+}
+
+.limpiar, #enviarDatos{
+    margin: 2px;
+}
+
+.contenedor_resultado{
+    width: 400px;
+    height:300px;
+    position:absolute;
+    left: 700px;
+    top: 195px;
+    z-index:1; 
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 10px 20px;
+    box-sizing: border-box;    
+}
+.contenedor_resultado, h2, h5, p{
+    background-color: rgb(241, 241, 241);    
+    padding: 3px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border-radius: 4px;
+    border-color: rgba(128, 128, 128, 0.281);
+}
+
+.cuadro-2{
+    top: 10px;
+    clear: both;
+    overflow: hidden;
+    width:170px; 
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

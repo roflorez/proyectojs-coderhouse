@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <title>Boletín virtual</title>
+</head>
+
+
+<body>
+    <h1 class="encabezado__boletin">Consultá tu promedio</h1>
+    <div class="contenedor_boletin">
+        
+        <div id="bienvenida">
+
+        </div>
+        <div class="contenedor_formulario">
+            <form action="">
+                <label for="" type="text" id="nombreGuardado">Nombre:</label>  <br>
+                <input type="text" class="input" name="nombre" id="nombre" placeholder="Nombre"> <br>
+                <label for="" type="text" id="apellidoGuardado">Apellido:</label>  <br>
+                <input type="text" class="input" name="apellido" id="apellido" placeholder="Apellido"> <br> 
+                <label for="" type="text" id="materiaGuardado">Materia:</label>  <br> 
+                <input type="text" class="input" id="materia" name="materia" placeholder="Materia" class="materiaGuardado"> <br>
+                <label for="" type="text" id="nota1Guardado">Nota 1</label>  <br>
+                <input type="text" class="input" id="nota1" name="nota1"  placeholder="Nota1" class="nota1Guardado"> <br>
+                <label for="" type="text" id="nota2Guardado">Nota 2</label>  <br>
+                <input type="text" class="input" id="nota2" name="nota2" placeholder="Nota2" class="nota2Guardado"> <br>
+                <input type="submit" value="Calcular promedio" id="enviarDatos">
+                <input type="button" class='limpiar' value="Limpiar formulario"> <br>
+            </form>
+        </div>
+        <div id="resultado">
+        </div>
+        
+    </div>
+    <div class="cuadro-2">
+        <button id="boton-guardar">Guardar</button><br>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script defer src="./javascript/script3.js"></script>   
+</body>
+</html>
